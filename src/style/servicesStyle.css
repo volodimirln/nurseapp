@@ -1,0 +1,108 @@
+#ServiceBlock{
+    background-color: #fff;
+    border-color: #bfbfbf;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    height: 440px;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 1%;
+  }
+
+  #name-service-block {
+    height: 90px;
+  }
+  
+  #ServiceBlockList {
+    margin-left: 7%;
+  }
+
+  #ServiceBlock h5{
+    text-align: initial;
+    font-weight: 400;
+    padding-top: 1%;
+    padding-bottom: 0%;
+    padding-left: 7%;
+  }
+
+  #ServiceBlock h3{
+    text-align: initial;
+    font-weight: 600;
+    padding-top: 7%;
+    padding-left: 7%;
+  }
+
+  #ServiceBlock #priceInfo {
+    padding-top: 1%;
+  }
+
+  #ServiceBlock h1{
+    font-weight: 900;
+    padding-left: 8%;
+    padding-top: 5%;
+  }
+
+  #ServiceBlock hr {
+    margin: 10% 7% 10% 7%;
+    border-radius: 10px;
+  }
+
+  #ServiceBlock ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 0;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 600;
+  }
+
+  #ServiceBlock #li-pluses {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5% 0% 5% 0%;
+  }
+
+  #ServiceBlock #li-pluses p {
+    padding: 0 0 0 10px;
+    margin: 0;
+  }
+
+  #ServiceButton{
+    background: #A5D0FC;
+    border: #A5D0FC;
+    border-radius: 20px;
+    margin-top: 5%;
+    font-family: Montserrat;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 1%;
+    color: #000;
+    width: 100%;
+    font-size: larger;
+    height: 38px;
+  }
+
+  @media screen and (max-width: 575px) {
+    #ServiceBlock h3 {
+      padding-top: 5%;
+    }
+    #ServiceBlock hr {
+      margin: 5% 7% 5% 7%;
+      border-radius: 10px;
+    }
+    #ServiceButton {
+      margin-top: 3%;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    #ServiceBlock {
+      height: 400px;
+    }
+    #ServiceBlock h3 {
+      padding-top: 3%;
+    }
+  }

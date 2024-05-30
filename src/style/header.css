@@ -1,0 +1,106 @@
+header{
+    background: #fff;
+    height: 55px;
+    width: auto;
+    border-radius: 30px;
+    margin-top: 25px;
+    margin-top: 25px;
+}
+.col, .row, .container{
+    /*height: 55px;*/
+}
+.col{
+    display: flex;
+    align-items: center;
+}
+h5{
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 600;
+    margin: 0;
+}
+a{
+    padding-right: 35px;
+    text-decoration: none;
+    color: #000;
+    font-size: 14pt;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+.order-last{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 15px;
+}
+#btn{
+    background: #A5D0FC;
+    color: #fff;
+    border: none;
+    margin: 0;
+    border-radius: 35px;
+    height: 100%;
+    width: 75%;
+    font-size: 16pt;
+    padding-top: 7px;
+    padding-right: 0px;
+}
+p{
+    font-family: Montserrat;
+    font-weight: 400;
+}
+#btndiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+img{
+    width: 35px;
+    height: 35px;
+}
+#offcanvasButton{
+    border: none;
+    width: auto;
+    height: auto;
+    background: #fff;
+    color: #000;
+}
+#offcanvasbtn{
+    border: none;
+    width: auto;
+    height: auto;
+    background: #fff;
+    color: #000;
+    font-weight: 450;
+    font-size: 28pt;
+    margin-left: 25px;
+    margin-bottom: 17%;
+}
+@media only screen and (min-width: 992px) {
+    #main-header{
+        margin-right: 0px;
+    }
+    /**/
+  }
+  @media only screen and (max-width: 992px) {
+    #btn {
+        height: 45px;
+        width: 45px;
+        padding: 5px;
+        margin: 5px;
+    }
+    #phone{
+        height: 25px;
+        width: 25px;
+    }
+    #logo{
+        height: 30px;
+        width: 30px;
+    }
+    .row{
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 535px) {
+    #middleBlock{
+        display: none;
+    }
+}

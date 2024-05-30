@@ -1,0 +1,234 @@
+
+.ServiceBlockStart {
+  margin-top: 5px;
+}
+#leftBlock {
+    background-color: #fff;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 0;
+}
+
+#leftBlock > div {
+    margin-left: 5%;
+}
+
+#rightBlock {
+    border-radius: 25px;
+    margin: 10px;
+    padding: 0;
+}
+
+#rightBlock img {
+  width: 100%;
+  height: 100%;
+}
+
+#rightSecondBlock {
+  margin-top: 1%;
+}
+
+#leftpodBlock {
+  background: #A5D0FC;
+  width: 100%;
+  border-radius: 25px;
+  margin-right: 1%;
+}
+
+#leftpodBlock img {
+  width: 138px;
+  height: 46px;
+}
+
+#leftpodBlock p {
+  font-size: 13pt;
+  font-weight: 600;
+}
+
+#rightpodBlock {
+  background-image: url('./rightpodblock.jpg');
+  background-size: 270px;
+  width: 100%;
+  border-radius: 25px;
+  margin-left: 1%;
+}
+
+#rightpodBlock p {
+  font-size: 13pt;
+  font-weight: 600;
+}
+
+#rightpodBlock div {
+  text-align: -webkit-center;
+}
+
+.mainBlockButtonThird {
+  background: #FFF;
+  border: #A5D0FC;
+  border-radius: 20px;
+  margin-top: 0%;
+  font-family: Montserrat;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 1%;
+  color: #000;
+  width: 90%;
+  font-size: larger;
+  height: 38px;
+  margin-left: 1%;
+}
+
+#ServiceBlock{
+    background-color: none;
+    border-color: #bfbfbf;
+    border-radius: 20px;
+    /*display: flex;*/
+    font-weight: 500;
+    justify-content: center;
+    font-family: Montserrat;
+    text-decoration: none;
+  }
+
+.nameCompany {
+    font-size: 28pt;
+    font-weight: 700;
+    line-height: initial;
+    margin-bottom: 0;
+    margin-top: 5%;
+}
+
+.nameEmployee {
+    font-size: 18pt;
+    color: #A5D0Fc;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.location {
+    display: flex;
+}
+
+.location p {
+    font-size: 17pt;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.mainBlockButton{
+    background: #A5D0FC;
+    border: #A5D0FC;
+    border-radius: 20px;
+    margin-top: 0%;
+    font-family: Montserrat;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 1%;
+    color: #000;
+    width: 32%;
+    font-size: larger;
+    height: 38px;
+    margin-right: 1%;
+  }
+
+  .mainBlockButtonSecond {
+    background: #202F6B;
+    border: #A5D0FC;
+    border-radius: 20px;
+    margin-top: 0%;
+    font-family: Montserrat;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 1%;
+    color: #fff;
+    width: 27%;
+    font-size: larger;
+    height: 38px;
+    margin-left: 1%;
+  }
+
+  .PointsBlockList ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 0;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 600;
+  }
+
+
+  .li-points {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5% 0% 5% 0%;
+  }
+  .li-points p {
+    margin-bottom: 0;
+  }
+
+  @media screen and (max-width: 991px) {
+  .nameCompany {
+      font-size: 20pt;
+  }
+  .nameEmployee {
+      font-size: 16pt;
+  }
+  .location p {
+    font-size: 14pt;
+  }
+  .mainBlockButton {
+    font-size: 9pt;
+  }
+  .mainBlockButtonSecond {
+    font-size: 9pt;
+  }
+  .li-points p {
+    font-size: 10pt;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #leftpodBlock img {
+    width: 100px;
+    height: 35px;
+  }
+  .mainBlockButtonThird {
+    font-size: 10pt;
+  }
+  #leftpodBlock p {
+    font-size: 10pt;
+  }
+  #rightpodBlock p {
+    font-size: 10pt;
+  }
+    .nameCompany {
+      font-size: 18pt;
+  }
+  .nameEmployee {
+      font-size: 14pt;
+  }
+  .location p {
+    font-size: 13pt;
+  }
+  .mainBlockButton {
+    font-size: 8pt;
+  }
+  .mainBlockButtonSecond {
+    font-size: 8pt;
+  }
+  .li-points p {
+    font-size: 10pt;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #mainimg {
+    display: none;
+  }
+
+  #rightBlock {
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+}

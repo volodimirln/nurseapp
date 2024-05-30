@@ -1,0 +1,88 @@
+#MainBlock {
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.NameMainBlock {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 18pt;
+    margin: 1% 0% 1% 4%;
+}
+
+.ReviewBlockCurrent p {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 16pt;
+    margin: 1% 0% 1% 4%;
+}
+
+.ReviewBlock {
+    display: flex;
+}
+
+.ReviewBlockCurrent {
+    background: #F6F6F6;
+    border-radius: 25px;
+    margin: 0% 2% 2% 2%;
+}
+
+.ReviewBlockCurrent p {
+    font-size: 16pt;
+    margin-top: 2%;
+}
+
+.ReviewerInfo {
+    display: flex;
+    margin-left: 3%;
+    align-items: center;
+}
+
+/* .ReviewerInfo img {
+    margin-bottom: 2%;
+} */
+
+@media screen and (max-width: 991px) {
+    .NameMainBlock {
+        font-size: 16pt;
+    }
+    .ReviewBlockCurrent p {
+        font-size: 12pt;
+    }
+    .ReviewerInfo img {
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .NameMainBlock {
+        font-size: 14pt;
+    }
+    .ReviewBlockCurrent p {
+        font-size: 11pt;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .NameMainBlock {
+        font-size: 16pt;
+    }
+    .ReviewBlockCurrent p {
+        font-size: 12pt;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .ReviewBlock {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .NameMainBlock {
+        font-size: 13pt;
+    }
+    .ReviewBlockCurrent p {
+        font-size: 10pt;
+    }
+}

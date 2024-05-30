@@ -1,0 +1,90 @@
+.MainBlock {
+    background-color: none;
+    border-radius: 25px;
+}
+
+.MainBlock p {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 21pt;
+}
+
+.FactsBlock {
+    display: flex;
+    justify-content: center;
+}
+
+#FactsBlockCurrent {
+    background: #fff;
+    border-radius: 25px;
+    margin: 0% 0% 10px 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*min-height: 280px;
+    max-width: 550px;*/
+    margin: 0px 10px 10px;
+}
+
+/*#FactsBlockCurrent:nth-child(1) {
+    margin: 0px 10px 10px;
+}
+
+#FactsBlockCurrent:nth-child(3) {
+    margin: 0px 10px 10px;
+}*/
+
+
+#FactsBlockCurrent p {
+    font-size: 16pt;
+    text-align: -webkit-center;
+    margin: 0% 2% 0% 2%;
+}
+
+.ReviewerInfo {
+    display: flex;
+    margin-left: 3%;
+}
+
+.ReviewerInfo img {
+    width: 130px;
+    height: 130px;
+}
+
+@media screen and (max-width: 1500px) {
+    #FactsBlockCurrent p {
+        font-size: 14pt;
+    }
+    .ReviewerInfo img {
+        width: 110px;
+        height: 110px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #FactsBlockCurrent {
+        /*min-height: 220px;*/
+    }
+    #FactsBlockCurrent p {
+        font-size: 10pt;
+    }
+    .ReviewerInfo img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+
+
+@media screen and (max-width: 625px) {
+    .FactsBlock {
+        flex-direction: column;
+    }
+    .MainBlock p {
+        font-size: 18pt;
+    }
+    #FactsBlockCurrent p {
+        font-size: 13pt;
+    }
+}
